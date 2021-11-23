@@ -1,0 +1,62 @@
+{
+  "name": "VortexSeries Driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "author": "dj",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "adm-zip": "^0.4.16",
+    "antd": "^4.5.4",
+    "axios": "^0.19.2",
+    "electron-notarize": "^1.0.0",
+    "ffi-napi": "^2.4.5",
+    "iohook": "^0.6.6",
+    "mobx": "^5.15.5",
+    "mobx-react-lite": "^2.0.7",
+    "moment": "^2.27.0",
+    "node-machine-id": "^1.1.12",
+    "os-keycode": "^1.0.0",
+    "ramda": "^0.26.1",
+    "react": "^16.12.0",
+    "react-color": "^2.17.3",
+    "react-contextmenu": "^2.14.0",
+    "react-dom": "^16.12.0",
+    "react-flexview": "^4.0.4",
+    "react-paginate": "^6.3.2",
+    "react-tiny-virtual-list": "^2.2.0",
+    "react-toastify": "^6.0.8",
+    "react-virtualized": "^9.22.2",
+    "react-window": "^1.8.5",
+    "reactjs-popup": "^1.5.0",
+    "ref-array-napi": "^1.2.0",
+    "ref-napi": "^1.4.2",
+    "ref-struct-napi": "^1.1.0",
+    "request": "^2.88.2",
+    "rxjs": "^6.5.4",
+    "sqlite3": "^4.1.1",
+    "typeorm": "^0.2.25",
+    "universal-analytics": "^0.4.23",
+    "usb": "1.6.3"
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "6.0.10"
+  },
+  "iohook": {
+    "targets": [
+      "electron-73"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  }
+}
